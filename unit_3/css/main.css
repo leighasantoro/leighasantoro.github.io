@@ -1,0 +1,26 @@
+body {
+	background-color: #FFFFF0;
+	color: #8B4513;
+	margin: 50px 50px 50px 50px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #8B4513;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	font-size: 14px;
+	font-family: "Verdana", Sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
