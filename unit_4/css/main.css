@@ -1,0 +1,30 @@
+body {
+	background-color: #FFFFF0;
+	color: #8B4513;
+	margin: 50px 50px 50px 50px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #8B4513;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Lobster Two', cursive;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#slogan {
+	font-family: 'Lobster Two', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+ul {
+	list-style-type: none;
+}
