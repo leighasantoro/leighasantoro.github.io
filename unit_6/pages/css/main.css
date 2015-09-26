@@ -1,0 +1,122 @@
+body {
+	background: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 24px;
+	border: black 2em solid;
+	color: #ab2a28;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #ab2a28;
+	color: white;
+}
+
+header {
+	font-size: 3em;
+	text-align: center;
+	padding: 0.5em;
+	font-weight: bold;
+	color: black;
+}
+
+nav {
+	background: #ab2a28;
+	padding: 1em;
+	border: black solid;
+}
+
+nav a {
+	float: left;
+	width: 16.6%;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background: white;
+	color: #ab2a28;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+p {
+	padding-bottom: 1em;
+}
+
+footer {
+	text-align: center;
+	color: black;
+	padding-top: 1em;
+	padding-bottom: 0.25em;
+}
+
+#subtitle {
+	font-size: 0.75em;
+	padding-top: 0.5em;
+}
+
+#donatelink {
+	background: #ab2a28;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	display: block;
+	padding: 0.5em;
+	margin: 10%;
+	border: black solid;
+}
+
+#donatelink:hover {
+	background: white;
+	color: #ab2a28;
+}
+
+#address {
+	font-size: 1.5em;
+	color: black;
+	font-weight: bold;
+	padding: 0;
+}
+
+#columntext {
+	width: 75%;
+	text-align: left;
+}
+
+#picture {
+	text-align: center;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+.column2 {
+	float: left;
+	width: 35%;
+	padding: 2%;
+	border: black solid;
+	margin: 1em;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
