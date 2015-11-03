@@ -1,0 +1,315 @@
+/*This applies to all pages of the website.*/
+	body {
+		background:  url("http://nwxfarmersmarket.com/wp-content/uploads/2015/08/coffee-beans-1.jpg");
+		background-size: cover;
+		color: #FFFFF0;
+		font-size: 18px;
+		font-family: 'Ovo', serif;
+	}
+
+	h1 {
+		font-size: 3em;
+		background: #FFFFF0;
+		color: #68492A;
+		border: #68492A solid 0.1em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 2em;
+		font-weight: bold;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	p {
+		padding: 0.5em 0em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #8B0000;
+	}
+
+	a:hover {
+		color: #68492A;
+		background: #FFFFF0;
+	}
+
+	header {
+		color: #FFFFF0;
+		font-size: 6em;
+		text-align: center;
+	}
+
+	footer {
+		background: #68492A;
+		text-align: center;
+		font-size: 0.75em;
+	}
+
+/*This gives the navigation bar.*/
+	nav {
+		border: #68492A solid 0.3em;
+	}
+
+	nav a {
+		background: #FFFFF0;
+		color: #8B0000;
+		display: block;
+		width: 20%;
+		padding: 0.25em 0em;
+		float: left;
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+
+	nav a:hover {
+		background: #8B0000;
+		color: #FFFFF0;
+	}
+
+/*This section is the main section of the Home Page.*/
+	#firstsection {
+		padding: 5% 0%;
+	}
+
+	#contact {
+		display: block;
+		background: #FFFFF0;
+		color: #68492A;
+		font-weight: bold;
+		border: #68492A solid 0.3em;
+	}
+
+	#placeorder {
+		font-size: 3em;
+		background: #FFFFF0;
+		color: #8B0000;
+		text-align: center;
+		display: block;
+		margin: 12% 0%;
+		border: #68492A solid 0.1em;
+	}
+
+	#placeorder:hover {
+		background: #8B0000;
+		color: #FFFFF0;
+	}
+
+	.maincolumn {
+		width: 38%;
+		margin: auto 2.5%;
+		padding: 3%;
+		float: left;
+	}
+
+/*This section defines the main characteristics for each subsection.*/
+	#block {
+		text-align: center;
+		padding: 3%;
+		margin: 5% 10%;
+		border: 0.5em #68492A solid;
+		background: #FFFFF0;
+		color: #68492A;
+	}
+
+/*This is the menu section.*/
+	.menubox {
+		padding: 0% 30%;
+	}
+
+	.menuitem {
+		width: 70%;
+		float: left;
+		text-align: left;
+		display: block;
+		padding-left: 5%;
+	}
+
+	.menuprice {
+		width: 25%;
+		float: left;
+		text-align: left;
+		display: block;
+	}
+
+	.menusection {
+		width: 46%;
+		display: block;
+		float: left;
+		border: 0.3em solid #68492A;
+		padding: 0.5%;
+		margin: 0.5%;
+	}
+
+/*This is the image gallery.*/
+	#gallerymain {
+		margin-top: 5%;
+		margin-bottom: 2.5%;
+		height: 10em;
+		width: 75%;
+		border: #68492A solid 0.5em;
+		background: white;
+	}
+
+	.imagecolumn {
+		width: 33%;
+		float: left;
+		text-align: center;
+	}
+
+/*This is the ordering page.*/
+	#order {
+		margin: 15% 20%;
+	}
+
+/*This is for the reviews.*/
+	.reviewcolumn {
+		width: 45%;
+		margin: 1%;
+		float: left;
+		display: block;
+		text-align: left;
+		border: #68492A solid 0.25em;
+		height: 6em;
+		padding: 1%;
+		text-align: justify;
+	}
+
+	.reviewcolumn p{
+		padding: 0em;
+	}
+
+	#ratingimg {
+		width: 30%;
+		padding-bottom: 2%;
+	}
+
+/*The clearfix class.*/
+	.clearfix:after { 
+   		content: "."; 
+   		visibility: hidden; 
+   		display: block; 
+   		height: 0; 
+   		clear: both;
+	}
+
+/*Media Queries.*/
+	@media only screen and (max-width: 1097px) {
+		.reviewcolumn {
+			width: 75%;
+			float: none;
+			margin: 1% auto;
+		}
+	}
+
+	@media only screen and (max-width: 920px) {
+		.imagecolumn {
+			width: 60%;
+			float: none;
+			margin: 2% auto;
+		}
+
+		#gallerymain {
+			height: 12em;
+		}
+
+		.menusection {
+			width: 75%;
+			margin: 1% 12.5%;
+		}
+	}
+
+	@media only screen and (max-width: 862px) {
+		.maincolumn {
+			width: 50%;
+			float: none;
+			margin: auto;
+		}
+
+		nav a {
+			width: 100%;
+			float: none;
+		}
+	}
+
+	@media only screen and (max-width: 580px) {
+		body {
+			font-size: 16px;
+		}
+
+		.imagecolumn {
+			width: 75%;
+		}
+
+		.reviewcolumn {
+			height: 7em;
+		}
+
+		header {
+			font-size: 4.75em;
+		}
+	}
+
+	@media only screen and (max-width: 478px) {
+		#placeorder {
+			font-size: 2em;
+		}
+
+		.imagecolumn {
+			width: 95%;
+		}
+
+		.menusection {
+			width: 85%;
+			margin: 1% 7.5%;
+		}
+
+		.maincolumn {
+			width: 70%;
+		}
+
+		h2 {
+			font-size: 1.5em;
+		}
+
+		h3{
+			font-size: 1em;
+			font-weight: bold;
+		}
+	}
+
+	@media only screen and (max-width: 389px) {
+		.menusection {
+			width: 95%;
+			margin: 1% 2%;
+		}
+
+		.reviewcolumn {
+			height: 8em;
+		}
+
+		.menubox {
+			width: 95%;
+			padding: 0%;
+		}
+	}
+
+	@media only screen and (max-width: 330px) {
+		.reviewcolumn {
+			height: 9em;
+		}
+
+		.menusection {
+			font-size: 0.75em;
+		}
+	}
+
+
+
+
+
