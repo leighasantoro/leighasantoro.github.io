@@ -199,7 +199,7 @@
 	}
 
 /*Media Queries.*/
-	@media only screen and (max-width: 1097px) {
+	@media only screen and (max-width: 824px) {
 		.reviewcolumn {
 			width: 75%;
 			float: none;
@@ -207,7 +207,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 920px) {
+	@media only screen and (max-width: 640px) {
 		.imagecolumn {
 			width: 60%;
 			float: none;
@@ -224,7 +224,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 862px) {
+	@media only screen and (max-width: 560px) {
 		.maincolumn {
 			width: 50%;
 			float: none;
@@ -237,10 +237,10 @@
 		}
 	}
 
-	@media only screen and (max-width: 580px) {
-	/*	body {
+	@media only screen and (max-width: 410px) {
+		body {
 			font-size: 16px;
-		}*/
+		}
 
 		.imagecolumn {
 			width: 75%;
@@ -255,18 +255,13 @@
 		}
 	}
 
-	@media only screen and (max-width: 478px) {
+	@media only screen and (max-width: 390px) {
 		#placeorder {
 			font-size: 2em;
 		}
 
 		.imagecolumn {
 			width: 95%;
-		}
-
-		.menusection {
-			width: 85%;
-			margin: 1% 7.5%;
 		}
 
 		.maincolumn {
@@ -281,9 +276,7 @@
 			font-size: 1em;
 			font-weight: bold;
 		}
-	}
 
-	@media only screen and (max-width: 389px) {
 		.menusection {
 			width: 95%;
 			margin: 1% 2%;
@@ -298,17 +291,6 @@
 			padding: 0%;
 		}
 	}
-
-	@media only screen and (max-width: 330px) {
-		.reviewcolumn {
-			height: 9em;
-		}
-
-		.menusection {
-			font-size: 0.75em;
-		}
-	}
-
 
 
 
