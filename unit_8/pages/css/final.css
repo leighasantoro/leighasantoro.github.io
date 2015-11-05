@@ -199,7 +199,7 @@
 	}
 
 /*Media Queries.*/
-	@media only screen and (max-width: 824px) {
+	@media only screen and (max-width: 1099px) {
 		.reviewcolumn {
 			width: 75%;
 			float: none;
@@ -207,7 +207,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 640px) {
+	@media only screen and (max-width: 926px) {
 		.imagecolumn {
 			width: 60%;
 			float: none;
@@ -224,7 +224,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 560px) {
+	@media only screen and (max-width: 860px) {
 		.maincolumn {
 			width: 50%;
 			float: none;
@@ -237,7 +237,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 410px) {
+	@media only screen and (max-width: 626px) {
 		body {
 			font-size: 16px;
 		}
@@ -255,7 +255,7 @@
 		}
 	}
 
-	@media only screen and (max-width: 390px) {
+	@media only screen and (max-width: 560px) {
 		#placeorder {
 			font-size: 2em;
 		}
